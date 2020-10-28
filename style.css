@@ -1,0 +1,36 @@
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  padding: 24px;
+  width: 300px;
+  margin: 0 auto 80px;
+}
+
+.person > img {
+  border-radius: 50%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+#searchInput {
+  width: 300px;
+  height: 30px;
+  font-size: medium;
+  padding: 0 10px;
+  outline: none;
+  margin: 10px 0;
+}
+
+.button {
+  width: 30px;
+  height: 25px;
+}
